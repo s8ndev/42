@@ -1,2 +1,5 @@
-# 42.uz
-<a href="https://s8ndev.github.io/42/">Saytga link</a>
+
+
+(Perfect Pixel natijasi)[./assets/img/perfect-pixel.jpg]
+
+<img href="./assets/img/perfect-pixel.jpg" alt="perfectpixel">
