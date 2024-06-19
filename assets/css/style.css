@@ -145,3 +145,9 @@ body {
     margin-top: 36px;
     margin-right: 5px;
 }
+
+@media screen and (max-width: 1260px) {
+    body {
+        margin: 0;
+    }
+}
