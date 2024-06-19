@@ -1,0 +1,147 @@
+@import url("./fonts.css");
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 20px;
+    display: grid;
+    place-items: center;
+    background-color: #f1f5f9;
+    font-family: "Work Sans", sans-serif;
+    font-weight: 500;
+}
+
+.certificate {
+    width: 1190px;
+    height: 1684px;
+}
+
+.top,
+.bottom {
+    width: 100%;
+    padding: 65px 115px;
+}
+
+.top {
+    height: 1140px;
+    background-image: url("../img/black-bg.png");
+}
+
+.bottom {
+    height: 545px;
+    background-image: url("../img/white-bg.png");
+    padding: 250px 115px 85px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    justify-content: end;
+}
+
+.logo img {
+    width: 407px;
+    height: 387px;
+}
+
+.course-title .title {
+    width: 440px;
+    font-size: 34px;
+    font-weight: 600;
+    margin-top: -55px;
+    color: #d9d9d9;
+}
+
+.extra-color {
+    color: #ffd600;
+}
+
+.big-title .title {
+    font-weight: 800;
+    font-size: 148px;
+    letter-spacing: 11px;
+    color: #ffffff;
+    margin-top: 38px;
+}
+
+.student-name {
+    font-weight: 700;
+    font-size: 56px;
+    color: #ffffff;
+}
+
+.info-sub {
+    font-weight: 500;
+    font-size: 26px;
+    color: #a8a8a8;
+    width: 795px;
+    line-height: 42px;
+    margin-top: -22px;
+}
+
+.bold-text {
+    color: #ffffff;
+}
+
+.info {
+    margin-top: -70px;
+}
+
+.qr-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.qr-container img {
+    margin-bottom: -360px;
+}
+
+.signature {
+    padding-bottom: 8px;
+    border-bottom: 0.4px solid #000000;
+    width: 285px;
+    margin-top: 1px;
+}
+
+.signature img {
+    width: 288px;
+    height: 100px;
+}
+
+.ceo-name {
+    font-size: 24px;
+    font-weight: 500;
+    width: 220px;
+    line-height: 35px;
+    color: #000000;
+    margin-top: 25px;
+    margin-left: 3px;
+}
+
+.regular-text {
+    font-weight: 400;
+}
+
+.right {
+    margin-top: -40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+}
+
+.award {
+    margin-top: 10px;
+}
+
+.award-time {
+    font-weight: 500;
+    font-size: 24px;
+    color: #5c5c5c;
+    margin-top: 36px;
+    margin-right: 5px;
+}
